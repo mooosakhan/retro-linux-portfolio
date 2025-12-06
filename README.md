@@ -4,7 +4,6 @@ A nostalgic, fully functional Linux desktop environment built with Next.js. Turn
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black)
-![React](https://img.shields.io/badge/React-19.2.0-61dafb)
 ![Tailwind](https://img.shields.io/badge/Tailwind-4.1.17-38bdf8)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -15,7 +14,6 @@ A nostalgic, fully functional Linux desktop environment built with Next.js. Turn
 ## ✨ Features
 
 - 🖥️ **Authentic Retro UI** - Classic Linux desktop aesthetics (GNOME 1.x, Fluxbox)
-- 🪟 **Draggable Windows** - Fully interactive window management
 - 📝 **Portfolio Showcase** - Display your projects, skills, and experience
 - 🚀 **Boot Sequence** - Classic Linux boot animation
 - 💻 **Working Terminal** - Execute commands like a real terminal
