@@ -26,7 +26,7 @@ export default function ContactApp({ portfolioData }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setStatus('Message sent! (Demo mode - not actually sent)');
+    setStatus('Fork it and do it yourself—I left it for you!');
     setTimeout(() => {
       setStatus('');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -65,19 +65,19 @@ export default function ContactApp({ portfolioData }) {
         <div className="p-3 flex-1">
           <h3 className="text-xs font-bold mb-2">Social Links</h3>
           <div className="space-y-2">
-            <button className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
+            <button onClick={() => window.open(personal.website, '_blank')} className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
               <span>🌐</span>
               <span>Website</span>
             </button>
-            <button className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
+            <button onClick={() => window.open(personal.linkedin, '_blank')} className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
               <span>💼</span>
               <span>LinkedIn</span>
             </button>
-            <button className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
+            <button onClick={() => window.open(personal.github, '_blank')} className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
               <span>💻</span>
               <span>GitHub</span>
             </button>
-            <button className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
+            <button onClick={() => window.open(personal.twitter, '_blank')} className="retro-button w-full px-2 py-2 text-xs flex items-center gap-2">
               <span>🐦</span>
               <span>Twitter</span>
             </button>

@@ -35,7 +35,7 @@ export default function SettingsApp({ onSettingsChange }) {
 
   const handleClearCache = () => {
     if (confirm('Clear application cache?')) {
-      alert('Cache cleared! (Demo mode)');
+      alert('Cache cleared!');
     }
   };
 
@@ -227,10 +227,6 @@ export default function SettingsApp({ onSettingsChange }) {
                   <span>React:</span>
                   <span>19.2.0</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>Build:</span>
-                  <span>Production</span>
-                </div>
               </div>
             </div>
 
@@ -282,7 +278,7 @@ export default function SettingsApp({ onSettingsChange }) {
             <div className="retro-border-in bg-white p-3">
               <h3 className="font-bold mb-2">Features</h3>
               <ul className="space-y-1 list-disc list-inside text-[11px]">
-                <li>Draggable and resizable windows</li>
+                <li>Boot process simulation</li>
                 <li>Working terminal emulator</li>
                 <li>File manager with navigation</li>
                 <li>Portfolio showcase (About, Projects, Experience)</li>
@@ -296,13 +292,13 @@ export default function SettingsApp({ onSettingsChange }) {
             <div className="retro-border-in bg-white p-3">
               <h3 className="font-bold mb-2">Credits</h3>
               <div className="text-[11px] space-y-1">
-                <p><strong>Built with:</strong> Next.js, React, Tailwind CSS</p>
+                <p><strong>Built with:</strong> Next.js , Tailwind CSS</p>
                 <p><strong>Inspired by:</strong> GNOME 1.x, Fluxbox, XFCE</p>
                 <p><strong>License:</strong> MIT</p>
               </div>
             </div>
 
-            <div className="retro-border-in bg-white p-3">
+            {/* <div className="retro-border-in bg-white p-3">
               <h3 className="font-bold mb-2">Keyboard Shortcuts</h3>
               <div className="grid grid-cols-2 gap-2 text-[11px]">
                 <div><kbd className="font-mono">Alt+F4</kbd> - Close window</div>
@@ -310,7 +306,7 @@ export default function SettingsApp({ onSettingsChange }) {
                 <div><kbd className="font-mono">Ctrl+C</kbd> - Terminal cancel</div>
                 <div><kbd className="font-mono">Ctrl+L</kbd> - Clear terminal</div>
               </div>
-            </div>
+            </div> */}
           </div>
         )}
       </div>

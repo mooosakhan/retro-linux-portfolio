@@ -1,66 +1,60 @@
 {
   "personal": {
-    "name": "Your Name",
+    "name": "Moosa Khan",
     "title": "Full Stack Developer",
     "tagline": "Building elegant solutions with modern technology",
-    "email": "your.email@example.com",
-    "phone": "+1 (555) 123-4567",
-    "location": "San Francisco, CA",
-    "website": "https://yourwebsite.com",
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername",
-    "twitter": "https://twitter.com/yourusername",
-    "avatar": "👨‍💻"
+    "email": "moosakhan3856902@gmail.com",
+    "phone": "+92 331 4027135",
+    "location": "Karachi, Pakistan",
+    "website": "https://moosa.me",
+    "github": "https://github.com/mooosakhan",
+    "linkedin": "https://linkedin.com/in/mooosakhan",
+    "twitter": "https://twitter.com/mooosakhan",
+    "avatar": "👨"
   },
   "about": {
-    "summary": "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in React, Next.js, Node.js, and cloud architecture. Love creating intuitive user experiences and solving complex problems.",
+    "summary": "Passionate full-stack developer with 2+ years of experience building scalable web applications. Specialized in React, Next.js, Node.js, and cloud architecture. Love creating intuitive user experiences and solving complex problems.",
     "bio": [
-      "Started coding in 2018 and fell in love with web development",
-      "Graduated with Computer Science degree in 2020",
-      "Open source contributor with 50+ repositories",
+      "Started coding in 2020 and fell in love with web development",
+      "Graduate with Computer Science degree in 2027",
+      "Open source contributor",
       "Tech blogger and community speaker",
       "Always learning new technologies and best practices"
     ],
     "interests": [
       "Open Source",
       "Web Performance",
-      "UI/UX Design",
+      "Design Engineering",
       "Cloud Architecture",
       "DevOps",
       "Machine Learning"
     ],
-    "languages": [
-      "English (Native)",
-      "Spanish (Fluent)",
-      "French (Intermediate)"
-    ]
+    "languages": ["English (Native)"]
   },
   "skills": {
     "frontend": [
-      { "name": "React", "level": 95, "years": 5 },
-      { "name": "Next.js", "level": 90, "years": 3 },
-      { "name": "TypeScript", "level": 90, "years": 4 },
-      { "name": "JavaScript", "level": 95, "years": 6 },
-      { "name": "HTML/CSS", "level": 95, "years": 6 },
-      { "name": "Tailwind CSS", "level": 90, "years": 3 },
-      { "name": "Vue.js", "level": 75, "years": 2 }
+      { "name": "React", "level": 95, "years": 2 },
+      { "name": "Next.js", "level": 90, "years": 2 },
+      { "name": "TypeScript", "level": 90, "years": 1 },
+      { "name": "JavaScript", "level": 95, "years": 3 },
+      { "name": "HTML/CSS", "level": 95, "years": 2 },
+      { "name": "Tailwind CSS", "level": 90, "years": 2 },
+      { "name": "Vue.js", "level": 75, "years": 1 }
     ],
     "backend": [
-      { "name": "Node.js", "level": 90, "years": 5 },
-      { "name": "Express", "level": 85, "years": 4 },
-      { "name": "Python", "level": 80, "years": 3 },
-      { "name": "Django", "level": 75, "years": 2 },
-      { "name": "PostgreSQL", "level": 85, "years": 4 },
-      { "name": "MongoDB", "level": 80, "years": 3 },
-      { "name": "GraphQL", "level": 75, "years": 2 }
+      { "name": "Node.js", "level": 90, "years": 2 },
+      { "name": "Express", "level": 85, "years": 2 },
+      { "name": "Python", "level": 80, "years": 1 },
+      { "name": "PostgreSQL", "level": 85, "years": 2 },
+      { "name": "MongoDB", "level": 80, "years": 2 }
     ],
     "tools": [
-      { "name": "Git", "level": 95, "years": 6 },
-      { "name": "Docker", "level": 85, "years": 3 },
-      { "name": "AWS", "level": 80, "years": 3 },
-      { "name": "CI/CD", "level": 85, "years": 3 },
-      { "name": "Figma", "level": 75, "years": 2 },
-      { "name": "Linux", "level": 90, "years": 5 }
+      { "name": "Git", "level": 95, "years": 3 },
+      { "name": "Docker", "level": 85, "years": 2 },
+      { "name": "AWS", "level": 80, "years": 2 },
+      { "name": "CI/CD", "level": 85, "years": 1 },
+      { "name": "Figma", "level": 75, "years": 1 },
+      { "name": "Linux", "level": 90, "years": 3 }
     ]
   },
   "experience": [
@@ -80,7 +74,14 @@
         "Mentored team of 5 junior developers",
         "Collaborated with product team on feature planning and UX"
       ],
-      "technologies": ["React", "Next.js", "Node.js", "PostgreSQL", "Docker", "AWS"],
+      "technologies": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "AWS"
+      ],
       "achievements": [
         "Improved application performance by 40%",
         "Reduced server costs by 30% through optimization",
@@ -147,8 +148,8 @@
         "Admin dashboard",
         "Email notifications"
       ],
-      "github": "https://github.com/yourusername/ecommerce",
-      "demo": "https://ecommerce-demo.com",
+      "github": "https://github.com/mooosakhan/",
+      "demo": "#",
       "status": "completed",
       "year": 2024,
       "stats": {
@@ -172,8 +173,8 @@
         "Message search and history",
         "Online status indicators"
       ],
-      "github": "https://github.com/yourusername/chat-app",
-      "demo": "https://chat-demo.com",
+      "github": "https://github.com/mooosakhan/",
+      "demo": "#",
       "status": "completed",
       "year": 2023,
       "stats": {
@@ -197,8 +198,8 @@
         "Analytics and reports",
         "Custom workflows"
       ],
-      "github": "https://github.com/yourusername/task-manager",
-      "demo": "https://tasks-demo.com",
+      "github": "https://github.com/mooosakhan/",
+      "demo": "#",
       "status": "completed",
       "year": 2023,
       "stats": {
@@ -222,8 +223,8 @@
         "Usage analytics",
         "Collaborative editing"
       ],
-      "github": "https://github.com/yourusername/ai-content",
-      "demo": "https://ai-content-demo.com",
+      "github": "https://github.com/mooosakhan/",
+      "demo": "#",
       "status": "active",
       "year": 2024,
       "stats": {
@@ -247,8 +248,8 @@
         "Weather alerts",
         "Historical data"
       ],
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://weather-demo.com",
+      "github": "https://github.com/mooosakhan/",
+      "demo": "#",
       "status": "completed",
       "year": 2022,
       "stats": {
@@ -263,9 +264,9 @@
       "institution": "University of Technology",
       "degree": "Bachelor of Science in Computer Science",
       "location": "San Francisco, CA",
-      "startDate": "2016-09",
-      "endDate": "2020-05",
-      "gpa": "3.8/4.0",
+      "startDate": "2023-09",
+      "endDate": "2027-05",
+      "gpa": "3.4/4.0",
       "honors": ["Dean's List", "Magna Cum Laude"],
       "relevant": [
         "Data Structures & Algorithms",
@@ -298,11 +299,9 @@
     }
   ],
   "achievements": [
-    "Open source contributor to React ecosystem",
-    "Published 20+ technical articles with 100K+ views",
-    "Speaker at 5 tech conferences",
-    "Hackathon winner 2023",
-    "Mentored 15+ junior developers"
+    "Published 5+ extensions to help developers improve productivity",
+    "make 2 tools for linux community",
+    "Mentored 40+ junior developers"
   ],
   "testimonials": [
     {
