@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐧 Retro Linux Desktop UI
 
-## Getting Started
+A nostalgic, fully functional Linux desktop environment built with Next.js. Turn your portfolio into an interactive retro computing experience!
 
-First, run the development server:
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black)
+![React](https://img.shields.io/badge/React-19.2.0-61dafb)
+![Tailwind](https://img.shields.io/badge/Tailwind-4.1.17-38bdf8)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+> **Open Source & Free to Use** - Built for the community. Use it, customize it, make it yours!
+
+---
+
+## ✨ Features
+
+- 🖥️ **Authentic Retro UI** - Classic Linux desktop aesthetics (GNOME 1.x, Fluxbox)
+- 🪟 **Draggable Windows** - Fully interactive window management
+- 📝 **Portfolio Showcase** - Display your projects, skills, and experience
+- 🚀 **Boot Sequence** - Classic Linux boot animation
+- 💻 **Working Terminal** - Execute commands like a real terminal
+- ⚙️ **Easy Customization** - Single JSON file for all content
+- 🎨 **Retro Styling** - Beveled borders, classic gray theme, pixel-perfect design
+- 📱 **No Backend** - Pure frontend, deploy anywhere
+
+
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- **Node.js** 18.17 or later
+- **npm**, **yarn**, or **pnpm**
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone or download the project
+cd retro-linux-ui
+
+# Install dependencies
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Start development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Open in browser
+http://localhost:3000
+```
 
-## Learn More
+The application will show the boot loader, then load the desktop. Press any key to skip the boot sequence.
 
-To learn more about Next.js, take a look at the following resources:
+### Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Build optimized version
+npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start production server
+npm start
 
-## Deploy on Vercel
+# Or export static site
+npm run build && npx next export
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Linting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+```
+
+---
+
+## 📝 Customize Your Portfolio
+
+Edit `/public/portfolio.json` to add your personal information, projects, experience, and skills. No code changes needed!
+
+## 📱 Applications
+
+- 📄 **About** - Your bio and skills
+- 📁 **Projects** - Showcase your work
+- 💼 **Experience** - Career timeline
+- 📋 **Resume** - Professional resume
+- 📧 **Contact** - Contact form
+- 💻 **Terminal** - Working bash terminal
+- 🖥️ **File Manager** - Browse files
+- ⚙️ **Settings** - Customize the desktop
+- 🧮 **Calculator** - Basic calculator
+- 📝 **Text Editor** - Simple notepad
+
+
+
+## 🔧 Tech Stack
+
+- **Next.js 16** - React framework
+- **React 19** - UI library
+- **Tailwind CSS 4** - Styling
+- **LocalStorage** - State persistence
+
+## 🚀 Deployment
+
+Deploy to Vercel, Netlify, or any static hosting service:
+
+```bash
+npm run build
+```
+
+No environment variables or backend required!
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
+
+---
+
+## 📄 License
+
+**MIT License** - Free and open source. Use it for personal or commercial projects!
+
+---
+
+## 💚 Credits
+
+Inspired by classic Linux desktops (GNOME 1.x, Fluxbox, XFCE) and early 2000s computing nostalgia.
+
+Built with Next.js, React, and Tailwind CSS.
+
+---
+
+**⭐ Star this repo if you love retro computing!**

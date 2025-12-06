@@ -1,26 +1,189 @@
 @import "tailwindcss";
 
+/* Retro Linux Desktop Theme Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --desktop-bg: #5a7f8f;
+  --panel-bg: #d4d0c8;
+  --panel-border-top: #ffffff;
+  --panel-border-bottom: #808080;
+  --window-bg: #c0c0c0;
+  --window-border-outer: #dfdfdf;
+  --window-border-inner: #808080;
+  --titlebar-active: #0a246a;
+  --titlebar-inactive: #808080;
+  --titlebar-text: #ffffff;
+  --button-face: #c0c0c0;
+  --button-highlight: #ffffff;
+  --button-shadow: #808080;
+  --button-dark-shadow: #000000;
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
+  --terminal-bg: #000000;
+  --terminal-text: #00ff00;
+  --selection-bg: #0a246a;
+  --selection-text: #ffffff;
 }
 
+/* Tailwind Theme Extensions */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Retro Color Palette */
+  --color-desktop: var(--desktop-bg);
+  --color-panel: var(--panel-bg);
+  --color-panel-border-light: var(--panel-border-top);
+  --color-panel-border-dark: var(--panel-border-bottom);
+  --color-window: var(--window-bg);
+  --color-window-border-light: var(--window-border-outer);
+  --color-window-border-dark: var(--window-border-inner);
+  --color-titlebar-active: var(--titlebar-active);
+  --color-titlebar-inactive: var(--titlebar-inactive);
+  --color-titlebar-text: var(--titlebar-text);
+  --color-btn-face: var(--button-face);
+  --color-btn-highlight: var(--button-highlight);
+  --color-btn-shadow: var(--button-shadow);
+  --color-btn-dark: var(--button-dark-shadow);
+  --color-terminal-bg: var(--terminal-bg);
+  --color-terminal-text: var(--terminal-text);
+  --color-selection: var(--selection-bg);
+
+  /* Retro Font Stack */
+  --font-system: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Console", monospace;
+  --font-sans: "MS Sans Serif", "Microsoft Sans Serif", sans-serif;
+  --font-mono: "Courier New", "Courier", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--text-primary);
+  background: var(--desktop-bg);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Pixel-perfect borders utility classes */
+.retro-border-out {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--button-highlight) var(--button-dark-shadow) var(--button-dark-shadow) var(--button-highlight);
+}
+
+.retro-border-in {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--button-dark-shadow) var(--button-highlight) var(--button-highlight) var(--button-dark-shadow);
+}
+
+.retro-border-window {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--window-border-light) var(--window-border-dark) var(--window-border-dark) var(--window-border-light);
+  box-shadow: inset 1px 1px 0 var(--button-highlight), inset -1px -1px 0 var(--button-shadow);
+}
+
+.retro-button {
+  background: var(--button-face);
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--button-highlight) var(--button-dark-shadow) var(--button-dark-shadow) var(--button-highlight);
+  padding: 2px 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.retro-button:hover {
+  background: #d4d0c8;
+}
+
+.retro-button:active {
+  border-color: var(--button-dark-shadow) var(--button-highlight) var(--button-highlight) var(--button-dark-shadow);
+  padding: 3px 7px 1px 9px;
+}
+
+.retro-button:disabled {
+  color: var(--button-shadow);
+  cursor: not-allowed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--window-bg);
+  border: 1px solid var(--button-shadow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--button-face);
+  border: 2px solid;
+  border-color: var(--button-highlight) var(--button-dark-shadow) var(--button-dark-shadow) var(--button-highlight);
+}
+
+::-webkit-scrollbar-button {
+  background: var(--button-face);
+  border: 2px solid;
+  border-color: var(--button-highlight) var(--button-dark-shadow) var(--button-dark-shadow) var(--button-highlight);
+  height: 16px;
+  width: 16px;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* Disable text selection on UI elements */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 1px dotted var(--text-primary);
+  outline-offset: -1px;
+}
+
+button:focus, a:focus {
+  outline: 1px dotted var(--text-primary);
+  outline-offset: 2px;
+}
+
+/* Animation utilities */
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s step-start infinite;
+}
+
+/* Desktop icon grid */
+.desktop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 80px);
+  grid-auto-rows: 80px;
+  gap: 8px;
+  padding: 8px;
 }

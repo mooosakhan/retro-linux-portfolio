@@ -1,0 +1,321 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "tagline": "Building elegant solutions with modern technology",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "website": "https://yourwebsite.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "twitter": "https://twitter.com/yourusername",
+    "avatar": "👨‍💻"
+  },
+  "about": {
+    "summary": "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in React, Next.js, Node.js, and cloud architecture. Love creating intuitive user experiences and solving complex problems.",
+    "bio": [
+      "Started coding in 2018 and fell in love with web development",
+      "Graduated with Computer Science degree in 2020",
+      "Open source contributor with 50+ repositories",
+      "Tech blogger and community speaker",
+      "Always learning new technologies and best practices"
+    ],
+    "interests": [
+      "Open Source",
+      "Web Performance",
+      "UI/UX Design",
+      "Cloud Architecture",
+      "DevOps",
+      "Machine Learning"
+    ],
+    "languages": [
+      "English (Native)",
+      "Spanish (Fluent)",
+      "French (Intermediate)"
+    ]
+  },
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": 95, "years": 5 },
+      { "name": "Next.js", "level": 90, "years": 3 },
+      { "name": "TypeScript", "level": 90, "years": 4 },
+      { "name": "JavaScript", "level": 95, "years": 6 },
+      { "name": "HTML/CSS", "level": 95, "years": 6 },
+      { "name": "Tailwind CSS", "level": 90, "years": 3 },
+      { "name": "Vue.js", "level": 75, "years": 2 }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 90, "years": 5 },
+      { "name": "Express", "level": 85, "years": 4 },
+      { "name": "Python", "level": 80, "years": 3 },
+      { "name": "Django", "level": 75, "years": 2 },
+      { "name": "PostgreSQL", "level": 85, "years": 4 },
+      { "name": "MongoDB", "level": 80, "years": 3 },
+      { "name": "GraphQL", "level": 75, "years": 2 }
+    ],
+    "tools": [
+      { "name": "Git", "level": 95, "years": 6 },
+      { "name": "Docker", "level": 85, "years": 3 },
+      { "name": "AWS", "level": 80, "years": 3 },
+      { "name": "CI/CD", "level": 85, "years": 3 },
+      { "name": "Figma", "level": 75, "years": 2 },
+      { "name": "Linux", "level": 90, "years": 5 }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Innovations Inc",
+      "position": "Senior Full Stack Developer",
+      "location": "San Francisco, CA",
+      "startDate": "2022-01",
+      "endDate": null,
+      "current": true,
+      "description": "Leading development of enterprise SaaS platform serving 100K+ users",
+      "responsibilities": [
+        "Architected and built microservices backend using Node.js and Docker",
+        "Developed responsive React frontend with Next.js and TypeScript",
+        "Implemented CI/CD pipelines reducing deployment time by 60%",
+        "Mentored team of 5 junior developers",
+        "Collaborated with product team on feature planning and UX"
+      ],
+      "technologies": ["React", "Next.js", "Node.js", "PostgreSQL", "Docker", "AWS"],
+      "achievements": [
+        "Improved application performance by 40%",
+        "Reduced server costs by 30% through optimization",
+        "Led migration to microservices architecture"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Digital Solutions LLC",
+      "position": "Full Stack Developer",
+      "location": "Remote",
+      "startDate": "2020-06",
+      "endDate": "2021-12",
+      "current": false,
+      "description": "Built custom web applications for diverse client base",
+      "responsibilities": [
+        "Developed full-stack applications using React, Node.js, and MongoDB",
+        "Integrated third-party APIs and payment gateways",
+        "Implemented responsive designs with mobile-first approach",
+        "Conducted code reviews and maintained code quality standards"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
+      "achievements": [
+        "Delivered 15+ client projects on time and under budget",
+        "Achieved 98% client satisfaction rate",
+        "Reduced bug reports by 50% through rigorous testing"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "StartupXYZ",
+      "position": "Junior Web Developer",
+      "location": "Austin, TX",
+      "startDate": "2019-01",
+      "endDate": "2020-05",
+      "current": false,
+      "description": "Contributed to building MVP and early-stage product development",
+      "responsibilities": [
+        "Built reusable React components for product dashboard",
+        "Implemented RESTful APIs with Express and PostgreSQL",
+        "Fixed bugs and improved application stability",
+        "Participated in agile development and daily standups"
+      ],
+      "technologies": ["React", "Express", "PostgreSQL", "Redux"],
+      "achievements": [
+        "Helped launch MVP to 1000+ beta users",
+        "Contributed to securing Series A funding"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "E-Commerce Platform",
+      "tagline": "Full-featured online store with payment integration",
+      "description": "Built a complete e-commerce solution with product management, shopping cart, checkout, and order tracking. Integrated Stripe for payments and AWS S3 for image storage.",
+      "image": "🛒",
+      "technologies": ["Next.js", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+      "features": [
+        "Product catalog with search and filters",
+        "Shopping cart and wishlist",
+        "Secure payment processing",
+        "Order tracking and history",
+        "Admin dashboard",
+        "Email notifications"
+      ],
+      "github": "https://github.com/yourusername/ecommerce",
+      "demo": "https://ecommerce-demo.com",
+      "status": "completed",
+      "year": 2024,
+      "stats": {
+        "users": "5000+",
+        "transactions": "$250K+",
+        "uptime": "99.9%"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Real-Time Chat Application",
+      "tagline": "WebSocket-based messaging platform",
+      "description": "Developed a real-time chat application with private messaging, group chats, file sharing, and video calls. Used WebSocket for instant communication.",
+      "image": "💬",
+      "technologies": ["React", "Socket.io", "Node.js", "MongoDB", "WebRTC"],
+      "features": [
+        "Real-time messaging",
+        "Group chats and channels",
+        "File and image sharing",
+        "Video/audio calls",
+        "Message search and history",
+        "Online status indicators"
+      ],
+      "github": "https://github.com/yourusername/chat-app",
+      "demo": "https://chat-demo.com",
+      "status": "completed",
+      "year": 2023,
+      "stats": {
+        "users": "10K+",
+        "messages": "1M+",
+        "activeDaily": "2500+"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Task Management Dashboard",
+      "tagline": "Kanban-style project management tool",
+      "description": "Created a task management system with drag-and-drop boards, team collaboration, and analytics. Features include task assignments, deadlines, and progress tracking.",
+      "image": "📊",
+      "technologies": ["Vue.js", "Express", "PostgreSQL", "Redis"],
+      "features": [
+        "Kanban boards with drag-and-drop",
+        "Task assignments and priorities",
+        "Time tracking",
+        "Team collaboration",
+        "Analytics and reports",
+        "Custom workflows"
+      ],
+      "github": "https://github.com/yourusername/task-manager",
+      "demo": "https://tasks-demo.com",
+      "status": "completed",
+      "year": 2023,
+      "stats": {
+        "teams": "500+",
+        "tasks": "50K+",
+        "productivity": "+35%"
+      }
+    },
+    {
+      "id": 4,
+      "name": "AI Content Generator",
+      "tagline": "GPT-powered content creation tool",
+      "description": "Built an AI-powered content generation platform using OpenAI's GPT API. Helps users create blog posts, social media content, and marketing copy.",
+      "image": "🤖",
+      "technologies": ["Next.js", "OpenAI API", "Tailwind", "Vercel"],
+      "features": [
+        "Multiple content templates",
+        "Tone and style customization",
+        "Content history and favorites",
+        "Export to multiple formats",
+        "Usage analytics",
+        "Collaborative editing"
+      ],
+      "github": "https://github.com/yourusername/ai-content",
+      "demo": "https://ai-content-demo.com",
+      "status": "active",
+      "year": 2024,
+      "stats": {
+        "generated": "100K+ pieces",
+        "users": "3000+",
+        "satisfaction": "4.8/5"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Weather Dashboard",
+      "tagline": "Beautiful weather app with forecasts",
+      "description": "Designed and developed a weather application with detailed forecasts, interactive maps, and location-based alerts. Features clean UI and real-time updates.",
+      "image": "🌤️",
+      "technologies": ["React", "Weather API", "Mapbox", "Chart.js"],
+      "features": [
+        "7-day forecast",
+        "Hourly predictions",
+        "Interactive weather maps",
+        "Location search",
+        "Weather alerts",
+        "Historical data"
+      ],
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://weather-demo.com",
+      "status": "completed",
+      "year": 2022,
+      "stats": {
+        "users": "15K+",
+        "cities": "500+",
+        "accuracy": "95%"
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Technology",
+      "degree": "Bachelor of Science in Computer Science",
+      "location": "San Francisco, CA",
+      "startDate": "2016-09",
+      "endDate": "2020-05",
+      "gpa": "3.8/4.0",
+      "honors": ["Dean's List", "Magna Cum Laude"],
+      "relevant": [
+        "Data Structures & Algorithms",
+        "Web Development",
+        "Database Systems",
+        "Software Engineering",
+        "Computer Networks",
+        "Artificial Intelligence"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "id": "AWS-123456"
+    },
+    {
+      "name": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date": "2022-11",
+      "id": "GCP-789012"
+    },
+    {
+      "name": "MongoDB Certified Developer",
+      "issuer": "MongoDB University",
+      "date": "2022-03",
+      "id": "MONGO-345678"
+    }
+  ],
+  "achievements": [
+    "Open source contributor to React ecosystem",
+    "Published 20+ technical articles with 100K+ views",
+    "Speaker at 5 tech conferences",
+    "Hackathon winner 2023",
+    "Mentored 15+ junior developers"
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "role": "CTO at Tech Innovations",
+      "text": "Outstanding developer with exceptional problem-solving skills. Consistently delivers high-quality work and mentors the team effectively.",
+      "avatar": "👩‍💼"
+    },
+    {
+      "name": "Mike Chen",
+      "role": "Product Manager at Digital Solutions",
+      "text": "A pleasure to work with. Always brings creative solutions and communicates clearly with both technical and non-technical stakeholders.",
+      "avatar": "👨‍💻"
+    }
+  ]
+}
