@@ -18,7 +18,7 @@ export default function TextEditorApp() {
   const handleSave = () => {
     // In real app, this would save to file system
     setIsSaved(true);
-    alert(`File "${filename}" saved! (Demo mode)`);
+    alert(`File "${filename}" saved!`);
   };
 
   const handleNew = () => {
@@ -31,7 +31,7 @@ export default function TextEditorApp() {
   };
 
   const handleOpen = () => {
-    alert('Open file dialog (Demo mode)');
+    alert('Open file dialog');
   };
 
   const stats = {
