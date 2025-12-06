@@ -2,12 +2,14 @@
 
 A nostalgic, fully functional Linux desktop environment built with Next.js. Turn your portfolio into an interactive retro computing experience!
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black)
-![Tailwind](https://img.shields.io/badge/Tailwind-4.1.17-38bdf8)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/mooosakhan/retro-linux-portfolio)
+[![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.0-61dafb)](https://react.dev/)
 
 > **Open Source & Free to Use** - Built for the community. Use it, customize it, make it yours!
+
+[Report Bug](https://github.com/mooosakhan/retro-linux-portfolio/issues) • [Request Feature](https://github.com/mooosakhan/retro-linux-portfolio/issues) • [Discussions](https://github.com/mooosakhan/retro-linux-portfolio/discussions)
 
 ---
 
@@ -34,8 +36,9 @@ A nostalgic, fully functional Linux desktop environment built with Next.js. Turn
 ### Installation
 
 ```bash
-# Clone or download the project
-cd retro-linux-ui
+# Clone the repository
+git clone https://github.com/mooosakhan/retro-linux-portfolio.git
+cd retro-linux-portfolio
 
 # Install dependencies
 npm install
@@ -112,9 +115,21 @@ No environment variables or backend required!
 
 ---
 
+## 🚀 Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/mooosakhan/retro-linux-portfolio)
+
+---
+
 ## 🤝 Contributing
 
-Contributions are welcome! Fork the repo, make your changes, and submit a pull request.
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
@@ -122,14 +137,25 @@ Contributions are welcome! Fork the repo, make your changes, and submit a pull r
 
 **MIT License** - Free and open source. Use it for personal or commercial projects!
 
+See [LICENSE](LICENSE) for details.
+
+---
+
+## 📞 Support
+
+- 📫 [Open an Issue](https://github.com/mooosakhan/retro-linux-portfolio/issues)
+- 💬 [Start a Discussion](https://github.com/mooosakhan/retro-linux-portfolio/discussions)
+
 ---
 
 ## 💚 Credits
 
 Inspired by classic Linux desktops (GNOME 1.x, Fluxbox, XFCE) and early 2000s computing nostalgia.
 
-Built with Next.js, React, and Tailwind CSS.
+Built with ❤️ using Next.js, React, and Tailwind CSS.
 
 ---
 
 **⭐ Star this repo if you love retro computing!**
+
+**Made by [Moosa](https://github.com/mooosakhan)**

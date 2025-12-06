@@ -1,10 +1,29 @@
 {
   "name": "retro-linux-ui",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A retro Linux desktop UI built with Next.js and Tailwind CSS",
-  "author": "Your Name",
+  "version": "1.0.0",
+  "description": "A nostalgic Linux desktop UI for portfolios - built with Next.js, React, and Tailwind CSS",
+  "author": "Moosa",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mooosakhan/retro-linux-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mooosakhan/retro-linux-portfolio/issues"
+  },
+  "homepage": "https://github.com/mooosakhan/retro-linux-portfolio#readme",
+  "keywords": [
+    "portfolio",
+    "retro",
+    "linux",
+    "desktop-ui",
+    "nextjs",
+    "react",
+    "tailwind",
+    "gnome",
+    "vintage",
+    "90s"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
